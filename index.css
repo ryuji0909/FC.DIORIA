@@ -480,10 +480,18 @@ a {
       #news .content1 {
        height: 400px;
       }
+    
+      #news .content .news-title {
+       font-size: 20px;
+     }
+
+      #news .content1 .news-title {
+       font-size: 20px;
+     }
    
       #news .content1 p {
        padding-top: 5%;
-      }
+     }
 }
 
 @media screen and (max-width: 399px) {
@@ -511,6 +519,14 @@ a {
    
    #news .content1 {
     height: 400px;
+   }
+    
+    #news .content .news-title {
+    font-size: 20px;
+   }
+
+   #news .content1 .news-title {
+    font-size: 20px;
    }
 
    #news .content1 p {

@@ -457,6 +457,10 @@ a {
    .header-logo {
      width: 100%;
    }
+    
+    .nav_toggle {
+    margin-left: -20%;
+   }
 
    .text {
     top: 75%;

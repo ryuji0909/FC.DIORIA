@@ -410,6 +410,10 @@ a {
       .nav_toggle {
        margin-left: -20%;
       }
+    
+       #daihyo {
+        background-size: cover;
+      }
 
       #daihyo img {
         margin-top: 30%;
@@ -431,6 +435,10 @@ a {
       }
       .nav_toggle {
        margin-left: -10%;
+      }
+    
+     #daihyo {
+        background-size: cover;
       }
 
       #daihyo img {

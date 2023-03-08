@@ -533,8 +533,22 @@ a {
     padding-top: 5%;
    }
     
-    #schedule {
-    display: none;
+    #schedule .schedule-contaniner{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+   }
+
+   .schedule-contnt {
+    padding: 20%;
+   }
+
+   #schedule .schedule-list  {
+    padding: 7%;
+    margin-right: 3%;
+    font-size: 15px;
    }
   
 }

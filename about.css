@@ -398,3 +398,48 @@ a {
 
    
 }
+
+@media screen and (max-width: 499px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-logo {
+        width: 100%;
+      }
+   
+      .nav_toggle {
+       margin-left: -20%;
+      }
+
+      #daihyo img {
+        margin-top: 30%;
+        margin-left: 30%;
+      }
+
+      .club-text p {
+        font-size: 13px;
+      }
+}
+
+@media screen and (max-width: 399px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-logo {
+        width: 100%;
+        
+      }
+      .nav_toggle {
+       margin-left: -10%;
+      }
+
+      #daihyo img {
+        margin-top: 40%; /*上の文字との距離*/
+        margin-left: 25%;/*横の文字の位置*/
+      }
+
+      .club-text p {
+        font-size: 13px;
+      }
+
+}

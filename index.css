@@ -452,3 +452,15 @@ a {
   }
 
 }
+
+@media screen and (max-width: 399px) {
+   .header-logo {
+     width: 100%;
+   }
+
+   .text {
+    top: 75%;
+    right: 40%;
+   }
+  
+}

@@ -453,19 +453,68 @@ a {
 
 }
 
+/*--------スマホ表示レスポンシブ--------*/
+@media screen and (max-width: 499px) {
+    .header-logo {
+        width: 100%;
+      }
+   
+      .nav_toggle {
+       margin-left: -20%;
+      }
+   
+      .text {
+       font-size: 25px;
+       top: 80%;
+       right: 20%;
+      }
+   
+      #news .content {
+       height: 600px;
+      }
+   
+      #news .news-text p {
+       font-size: 10px;
+      }
+      
+      #news .content1 {
+       height: 400px;
+      }
+   
+      #news .content1 p {
+       padding-top: 5%;
+      }
+}
+
 @media screen and (max-width: 399px) {
    .header-logo {
      width: 100%;
    }
-    
-    .nav_toggle {
+
+   .nav_toggle {
     margin-left: -20%;
    }
 
    .text {
     font-size: 25px;
     top: 80%;
-    right: 30%;
+    right: 20%;
+   }
+
+   #news .content {
+    height: 600px;
+   }
+
+   #news .news-text p {
+    font-size: 10px;
+   }
+   
+   #news .content1 {
+    height: 400px;
+   }
+
+   #news .content1 p {
+    padding-top: 5%;
    }
   
 }

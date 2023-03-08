@@ -410,14 +410,18 @@ a {
       .nav_toggle {
        margin-left: -20%;
       }
-    
-       #daihyo {
-        background-size: cover;
+
+      #daihyo h3 {
+        margin-right: 40px;
       }
 
       #daihyo img {
         margin-top: 30%;
         margin-left: 30%;
+      }
+
+      .club-text {
+        left: 45%;
       }
 
       .club-text p {
@@ -436,14 +440,22 @@ a {
       .nav_toggle {
        margin-left: -10%;
       }
-    
-     #daihyo {
+
+      #daihyo {
         background-size: cover;
+      }
+
+      #daihyo h3 {
+        margin-right: 30px;
       }
 
       #daihyo img {
         margin-top: 40%; /*上の文字との距離*/
-        margin-left: 25%;/*横の文字の位置*/
+        margin-left: 30%;/*横の文字の位置*/
+      }
+
+      .club-text {
+        left: 45%;
       }
 
       .club-text p {

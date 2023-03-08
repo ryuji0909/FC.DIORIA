@@ -492,6 +492,24 @@ a {
       #news .content1 p {
        padding-top: 5%;
      }
+    
+    #schedule .schedule-contaniner{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 100%;
+        height: auto;
+       }
+    
+       .schedule-contnt {
+        padding: 20%;
+       }
+    
+       #schedule .schedule-list  {
+        padding: 7%;
+        margin-right: 3%;
+        font-size: 15px;
+       }
 }
 
 @media screen and (max-width: 399px) {

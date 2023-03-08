@@ -300,7 +300,10 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-
+    body {
+        overflow-x: hidden;
+    }
+    
     nav { /*ナビゲーション非表示*/
         display: none;
     }
@@ -455,6 +458,11 @@ a {
 
 /*--------スマホ表示レスポンシブ--------*/
 @media screen and (max-width: 499px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    
     .header-logo {
         width: 100%;
       }
@@ -513,6 +521,11 @@ a {
 }
 
 @media screen and (max-width: 399px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    
    .header-logo {
      width: 100%;
    }

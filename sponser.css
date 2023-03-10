@@ -195,6 +195,10 @@ a {
   margin: 20px;
 }
 
+.footer-title {
+  padding-bottom: 7px;
+}
+
 /*----ハンバーガーメニュー----*/
 .nav_toggle, /*PCでは非表示*/
 .nav {
@@ -329,4 +333,46 @@ display: none;
     opacity: 1;
     visibility: visible;
   }
+}
+
+@media screen and (max-width: 499px){
+  body {
+    overflow-x: hidden;
+}
+.header-logo {
+    width: 100%;
+  }
+
+  .nav_toggle {
+   margin-left: -20%;
+  }
+
+  .footer-title {
+    padding-bottom: 7px;
+}
+
+}
+
+@media screen and (max-width: 399px){
+  body {
+    overflow-x: hidden;
+}
+.header-logo {
+    width: 100%;
+  }
+
+  .nav_toggle {
+   margin-left: -20%;
+  }
+
+  .img {
+    text-align: right;
+    height: auto;
+    width: auto;
+  }
+
+  .footer-title {
+    padding-bottom: 7px;
+}
+  
 }

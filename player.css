@@ -154,13 +154,13 @@ a {
     margin-bottom: 100px;
 }
 #player img {
-    width: 900px;
     border-radius: 5px;
 }
 
 .content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    height: auto;
     padding: 40px;
     column-gap: 40px;
     row-gap: 80px;
@@ -243,6 +243,10 @@ a {
 
 #footer .fa-brands {
     margin: 20px;
+}
+
+.footer-title {
+    padding-bottom: 7px;
 }
 
 /*----ハンバーガーメニュー----*/
@@ -379,3 +383,89 @@ a {
     visibility: visible;
   }
 }
+
+@media screen and (max-width: 499px){
+    body {
+      overflow-x: hidden;
+  }
+  .header-logo {
+      width: 100%;
+    }
+  
+    .nav_toggle {
+     margin-left: -20%;
+    }
+
+    #nav-top {
+        width: 300px;
+        padding: 3% 5%;
+    }
+
+    #nav-top ul li a {
+        font-size: 20px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .content-title {
+        font-size: 30px;
+    }
+
+    .content h3 {
+        font-size: 12px;
+    }
+    
+    .content p {
+        font-size: 10px;
+    }
+
+    .footer-title {
+        padding-bottom: 7px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 399px){
+    body {
+      overflow-x: hidden;
+  }
+  .header-logo {
+      width: 100%;
+    }
+  
+    .nav_toggle {
+     margin-left: -15%;
+    }
+
+    #nav-top {
+        width: 250px;
+        padding: 2% 5%;
+    }
+
+    #nav-top ul li a {
+        font-size: 20px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .content-title {
+        font-size: 30px;
+    }
+
+    .content h3 {
+        font-size: 6px;
+    }
+    
+    .content p {
+        font-size: 10px;
+    }
+
+    .footer-title {
+        padding-bottom: 7px;
+    }
+  }
+  
